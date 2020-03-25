@@ -33,4 +33,15 @@ public class Main {
         return hostname;
     }
 
+    /**
+     * Returns the sum of two numbers
+     *
+     * @param a The first number to sum
+     * @param b The second number to sum
+     * @return The sum of the given numbers
+     */
+    private static int sum(int a, int b){
+        return a + b;
+    }
+
 }
