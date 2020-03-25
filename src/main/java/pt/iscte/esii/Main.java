@@ -13,7 +13,10 @@ public class Main {
     public static void main(String[] args) {
         String name = getMachineName();
         if (!name.equals("")) System.out.print(getMachineName() + " says: ");
-        System.out.println("Hello, world!");
+        System.out.println("Hello, world!\n");
+
+        Calc c = new Calc();
+        System.out.println("The sum of 2+2 is " + c.sum(2).sum(2).result());
     }
 
     /**
@@ -31,17 +34,6 @@ public class Main {
             System.out.println("Hostname can not be resolved");
         }
         return hostname;
-    }
-
-    /**
-     * Returns the sum of two numbers
-     *
-     * @param a The first number to sum
-     * @param b The second number to sum
-     * @return The sum of the given numbers
-     */
-    private static int sum(int a, int b){
-        return a + b;
     }
 
 }
