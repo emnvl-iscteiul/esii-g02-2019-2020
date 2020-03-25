@@ -1,8 +1,11 @@
 package pt.iscte.esii;
 
+import org.junit.Ignore;
+
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
+@Ignore("This is Main... Do you REALLY wanna test it...?")
 public class Main {
 
     /**

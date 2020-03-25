@@ -1,10 +1,11 @@
-package pt.iscte.esii;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import pt.iscte.esii.Calc;
+
 
 class CalcTest {
     Calc calc;
@@ -60,6 +61,6 @@ class CalcTest {
 
     @Test
     void testToString() {
-        assertEquals("0", calc.toString());
+        assertEquals("0.0", calc.toString());
     }
 }
