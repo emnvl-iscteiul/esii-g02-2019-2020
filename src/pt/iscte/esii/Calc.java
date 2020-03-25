@@ -4,7 +4,7 @@ package pt.iscte.esii;
  * Encapsulates a simple calculator
  */
 public class Calc {
-    private float result; // The cumulated result in this calculator object
+    private float result; // The cumulative result in this calculator object
 
     /**
      * Creates a new instance of this class
